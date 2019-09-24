@@ -7,7 +7,7 @@
     "tinyify": "^2.5.1"
   },
   "scripts" : {
-  	"build" : "sudo uglifyjs --compress --mangle -- src/index.js > build/index.js"
+  	"build" : "sudo uglifyjs --compress --mangle -- src/index.js > docs/build/bci-login-lightbox.js"
   },
   "dependencies": {
     "uglify-js": "^3.6.0"
