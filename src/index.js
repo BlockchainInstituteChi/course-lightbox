@@ -130,4 +130,4 @@ function bci_check_login () {
 	} 
 }
 
-bci_check_login();
+document.addEventListener("DOMContentLoaded", bci_check_login);
